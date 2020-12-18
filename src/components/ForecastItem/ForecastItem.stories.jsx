@@ -6,4 +6,4 @@ export default {
 	component: ForecastItem
 }
 
-export const LunesSoleado = () => <ForecastItem hour={10} state="sunny" temperature={23} weekDay="Lunes" />
+export const LunesSoleado = () => <ForecastItem hour={10} state="clear" temperature={23} weekDay="Lunes" />

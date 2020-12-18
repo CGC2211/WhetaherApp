@@ -3,11 +3,11 @@ import { render, fireEvent } from '@testing-library/react'
 import CityList from './CityList'
 
 const cities = [
-    { city: "Hermosillo", country: "México" },
-    { city: "New York", country: "USA" },
-    { city: "Buenos Aires", country: "Argentina" },
-    { city: "Distrito Federal", country: "México" },
-    { city: "Lima", country: "Peru" },
+    { city: "Hermosillo", country: "México", countryCode : "MX" },
+    { city: "New York", country: "USA", countryCode : "US" },
+    { city: "Buenos Aires", country: "Argentina", countryCode : "AR" },
+    { city: "Distrito Federal", country: "México", countryCode : "MX" },
+    { city: "Lima", country: "Peru", countryCode : "PE" },
 ]
 
 test("CityList Renders", async () => {
